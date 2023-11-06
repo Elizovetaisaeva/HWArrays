@@ -78,9 +78,11 @@ public class Main {
         for (int i = 0; i < thirdArray.length; i++) {
             if (thirdArray[i] % 2 != 0) {
                 thirdArray [i] ++;
-                System.out.print(Arrays.toString(thirdArray));
+
+
             }
         }
+        System.out.print(Arrays.toString(thirdArray));
         }
     }
 
